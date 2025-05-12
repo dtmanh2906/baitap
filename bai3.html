@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài 3</title>
+  </head>
+  <body>
+    <a href="./bai1.html">bài 1</a>
+    <a href="./bai2.html">bài 2</a>
+    <a href="./bai3.html">bài 3</a>
+    <table border="1" align="center">
+      <tr>
+        <td align="center">Đăng ký du lịch</td>
+      </tr>
+      <tr>
+        <td>
+          <table border="1">
+            <tr>
+              <td>Họ và tên</td>
+              <td>
+                <input type="text" />
+              </td>
+            </tr>
+            <tr>
+              <td>Địa chỉ</td>
+              <td>
+                <input type="text" />
+              </td>
+            </tr>
+            <tr>
+              <td>Điện thoại</td>
+              <td>
+                <input type="text" />
+              </td>
+            </tr>
+            <tr>
+              <td>CHọn tour</td>
+              <td>
+                <select>
+                  <optgroup>
+                    <option value="1">Hà Nội - Vĩnh Long - Sapa</option>
+                    <option value="2">Hà Nội - Chùa Hương - Ninh Bình</option>
+                    <option value="3">Hà Nội - Cát Bà - Tuấn Châu</option>
+                  </optgroup>
+
+                  <optgroup>
+                    <option value="1">Huế - Bach Mã - Đà Nẵng</option>
+                    <option value="2">Nha Trang - Đà Lạt</option>
+                    <option value="3">Buôn Mê Thuộc - Gia Lai - Kontum</option>
+                  </optgroup>
+
+                  <optgroup>
+                    <option value="1">TP.HCM - Cần Thơ - Cà Mau</option>
+                    <option value="2">TP.HCM - Mỹ Tho</option>
+                  </optgroup>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>Phương tiện</td>
+              <td>
+                <input type="radio" name="phuong-tien" />máy bay
+                <input type="radio" name="phuong-tien" />oto
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" align="center">
+                <fieldset>
+                  <legend>Số lượng đoàn khách</legend>
+                  <label for="people">Người lớn</label>
+                  <input name="people" " />
+
+                  <label for="Children">Trẻ em</label>
+                  <input name="Children" id="txtChildren" size="5" />
+                </fieldset>
+              </td>
+            </tr>
+            <tr>
+              <td>Ghi chú thêm</td>
+              <td>
+                <textarea name="txtComment" cols="30"></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" align="center">
+                <button onclick="checkRegister()">Đồng ý</button>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
