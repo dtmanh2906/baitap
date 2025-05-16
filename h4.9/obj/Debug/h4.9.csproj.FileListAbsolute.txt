@@ -1,0 +1,10 @@
+C:\baitapvenha\WindowsFormsApp1\h4.9\bin\Debug\h4.9.exe.config
+C:\baitapvenha\WindowsFormsApp1\h4.9\bin\Debug\h4.9.exe
+C:\baitapvenha\WindowsFormsApp1\h4.9\bin\Debug\h4.9.pdb
+C:\baitapvenha\WindowsFormsApp1\h4.9\obj\Debug\h4.9.csproj.AssemblyReference.cache
+C:\baitapvenha\WindowsFormsApp1\h4.9\obj\Debug\h4._9.Form1.resources
+C:\baitapvenha\WindowsFormsApp1\h4.9\obj\Debug\h4._9.Properties.Resources.resources
+C:\baitapvenha\WindowsFormsApp1\h4.9\obj\Debug\h4.9.csproj.GenerateResource.cache
+C:\baitapvenha\WindowsFormsApp1\h4.9\obj\Debug\h4.9.csproj.CoreCompileInputs.cache
+C:\baitapvenha\WindowsFormsApp1\h4.9\obj\Debug\h4.9.exe
+C:\baitapvenha\WindowsFormsApp1\h4.9\obj\Debug\h4.9.pdb

@@ -1,0 +1,10 @@
+C:\baitapvenha\WindowsFormsApp1\h4.20\bin\Debug\h4.20.exe.config
+C:\baitapvenha\WindowsFormsApp1\h4.20\bin\Debug\h4.20.exe
+C:\baitapvenha\WindowsFormsApp1\h4.20\bin\Debug\h4.20.pdb
+C:\baitapvenha\WindowsFormsApp1\h4.20\obj\Debug\h4.20.csproj.AssemblyReference.cache
+C:\baitapvenha\WindowsFormsApp1\h4.20\obj\Debug\h4._20.Form1.resources
+C:\baitapvenha\WindowsFormsApp1\h4.20\obj\Debug\h4._20.Properties.Resources.resources
+C:\baitapvenha\WindowsFormsApp1\h4.20\obj\Debug\h4.20.csproj.GenerateResource.cache
+C:\baitapvenha\WindowsFormsApp1\h4.20\obj\Debug\h4.20.csproj.CoreCompileInputs.cache
+C:\baitapvenha\WindowsFormsApp1\h4.20\obj\Debug\h4.20.exe
+C:\baitapvenha\WindowsFormsApp1\h4.20\obj\Debug\h4.20.pdb
