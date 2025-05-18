@@ -1,0 +1,10 @@
+C:\baitapvenha\ngay18-5\ngay18-5\bin\Debug\ngay18-5.exe.config
+C:\baitapvenha\ngay18-5\ngay18-5\bin\Debug\ngay18-5.exe
+C:\baitapvenha\ngay18-5\ngay18-5\bin\Debug\ngay18-5.pdb
+C:\baitapvenha\ngay18-5\ngay18-5\obj\Debug\ngay18-5.csproj.AssemblyReference.cache
+C:\baitapvenha\ngay18-5\ngay18-5\obj\Debug\ngay18_5.Form1.resources
+C:\baitapvenha\ngay18-5\ngay18-5\obj\Debug\ngay18_5.Properties.Resources.resources
+C:\baitapvenha\ngay18-5\ngay18-5\obj\Debug\ngay18-5.csproj.GenerateResource.cache
+C:\baitapvenha\ngay18-5\ngay18-5\obj\Debug\ngay18-5.csproj.CoreCompileInputs.cache
+C:\baitapvenha\ngay18-5\ngay18-5\obj\Debug\ngay18-5.exe
+C:\baitapvenha\ngay18-5\ngay18-5\obj\Debug\ngay18-5.pdb
