@@ -1,0 +1,10 @@
+﻿@model myMVC.Models.SinhVien
+
+<h2>Xác nhận xóa sinh viên</h2>
+<p>Bạn có chắc muốn xóa sinh viên: <strong>@Model.HoTen</strong>?</p>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="MaSV" />
+    <button type="submit">Xóa</button>
+    <a href="@Url.Action("Index")">Hủy</a>
+</form>

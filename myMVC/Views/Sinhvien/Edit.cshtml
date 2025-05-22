@@ -1,0 +1,17 @@
+﻿@model myMVC.Models.SinhVien
+
+<h2>Sửa thông tin sinh viên</h2>
+<form asp-action="Edit">
+    <input type="hidden" asp-for="MaSV" />
+
+    <label for="HoTen">Họ và Tên:</label>
+    <input asp-for="HoTen" required />
+
+    <label for="Lop">Lớp:</label>
+    <input asp-for="Lop" required />
+
+    <label for="Diem">Điểm:</label>
+    <input asp-for="Diem" type="number" required />
+
+    <button type="submit">Lưu thay đổi</button>
+</form>

@@ -1,0 +1,33 @@
+﻿<h2>Danh sách sinh viên</h2>
+
+<a href="@Url.Action("Create")" class="btn btn-primary">Thêm sinh viên</a> <!-- 🛑 Kiểm tra xem nút này có không -->
+
+<form method="get" action="@Url.Action("Index")">
+    <label for="searchMaSV">Mã sinh viên:</label>
+    <input type="number" name="searchMaSV" placeholder="Nhập mã sinh viên" />
+    <button type="submit">Tìm kiếm</button>
+</form>
+
+<table class="table">
+    <tr>
+        <th>Mã SV</th>
+        <th>Họ và tên</th>
+        <th>Lớp</th>
+        <th>Điểm</th>
+        <th>Hành động</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.MaSV</td>
+            <td>@item.HoTen</td>
+            <td>@item.Lop</td>
+            <td>@item.Diem</td>
+            <td>
+                @Html.ActionLink("Sửa", "Edit", new { id = item.MaSV }) |
+                @Html.ActionLink("Xóa", "Delete", new { id = item.MaSV })
+            </td>
+        </tr>
+    }
+</table>

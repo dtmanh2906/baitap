@@ -1,0 +1,18 @@
+﻿@model myMVC.Models.SinhVien
+
+<h2>Thêm sinh viên mới</h2>
+<form asp-action="Create">
+    <label for="MaSV">Mã sinh viên:</label>
+    <input asp-for="MaSV" required />  <!-- 🛑 Cho phép nhập MaSV -->
+
+    <label for="HoTen">Họ và Tên:</label>
+    <input asp-for="HoTen" required />
+
+    <label for="Lop">Lớp:</label>
+    <input asp-for="Lop" required />
+
+    <label for="Diem">Điểm:</label>
+    <input asp-for="Diem" type="number" required />
+
+    <button type="submit">Thêm sinh viên</button>
+</form>
