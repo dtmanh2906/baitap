@@ -20,6 +20,8 @@ namespace ngay24_5.Controllers
                 return View(danhSachNV);
             }
         }
+
+        //them
         public ActionResult Create()
         {
 
@@ -46,6 +48,49 @@ namespace ngay24_5.Controllers
                 }
             }
 
+            return View(nhanVien);
+        }
+
+        //Xoa
+        public ActionResult Delete(string id)
+        {
+            var nhanVien = db.NhanViens.Find(id);
+            if (nhanVien == null)
+            {
+                return HttpNotFound();
+            }
+            return View(nhanVien);
+        }
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public ActionResult DeleteConfirmed(string id)
+        {
+            var nhanVien = db.NhanViens.Find(id);
+            db.NhanViens.Remove(nhanVien);
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+        //Sua
+        public ActionResult Edit (string id)
+        {
+            var nhanVien = db.NhanViens.Find(id);
+            if (nhanVien == null)
+            {
+                return HttpNotFound();
+            }
+            return View(nhanVien);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit([Bind(Include ="MaNV,TenNV,Phong,Luong")] NhanVien nhanVien)
+        {
+            if (ModelState.IsValid)
+            {
+                db.Entry(nhanVien).State = System.Data.Entity.EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("Index");
+            }
             return View(nhanVien);
         }
     }

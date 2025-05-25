@@ -207,6 +207,8 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\NhanVien\Index.cshtml" />
     <Content Include="Views\NhanVien\Create.cshtml" />
+    <Content Include="Views\NhanVien\Delete.cshtml" />
+    <Content Include="Views\NhanVien\Edit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
