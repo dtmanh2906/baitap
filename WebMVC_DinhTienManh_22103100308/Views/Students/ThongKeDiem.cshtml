@@ -1,0 +1,43 @@
+﻿@model WebMVC_DinhTienManh_22103100308.ViewModel.ThongKeDiemViewModel
+
+<h2>Sinh viên có điểm trung bình > 8.0</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Họ tên</th>
+            <th>Ngày sinh</th>
+            <th>Điểm trung bình</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var sv in Model.DuDieuKien)
+        {
+            <tr>
+                <td>@sv.FullName</td>
+                <td>@sv.BrithDate.ToShortDateString()</td>
+                <td>@sv.AverageScore.ToString("0.00")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h2>Sinh viên không đạt (≤ 8.0)</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Họ tên</th>
+            <th>Ngày sinh</th>
+            <th>Điểm trung bình</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var sv in Model.KhongDuDieuKien)
+        {
+            <tr>
+                <td>@sv.FullName</td>
+                <td>@sv.BrithDate.ToShortDateString()</td>
+                <td>@sv.AverageScore.ToString("0.00")</td>
+            </tr>
+        }
+    </tbody>
+</table>
