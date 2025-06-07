@@ -1,0 +1,43 @@
+﻿@model List<WebMVC_DinhTienManh_22103100308.Models.Result>
+@{
+    ViewData["Title"] = "Tim kiem ket qua hoc tap";
+}
+<h2>@ViewData["Title"]</h2>
+
+<form method="post" asp-controller="Results" asp-action="Search">
+    <div class="form-group">
+        <label for="keyword">Nhap ten sinh vien</label>
+        <input type="text" class="form-control" name="keyword"/>
+    </div>
+    <br>
+    <button type="submit" class="btn btn-primary">Tim Kiem</button>
+</form>
+<br />
+@if(Model != null && Model.Count > 0)
+{
+    <table class="table table-bordered">
+        <thead>
+            <th>Ten sinh vien</th>
+            <th>Mon hoc</th>
+            <th>Diem</th>
+        </thead>
+        <tbody>
+            @foreach(var item in Model)
+            {
+                <tr>
+                    <td>@item.Student.FullName</td>
+                    <td>@item.Subject</td>
+                    <td>@item.Score</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else if(Model != null && Model.Count==0)
+{
+    <div class="alert alert-info">Khong tim thay ket qua phu hop</div>
+}
+else if(ViewBag.Message != null)
+{
+    <div class="alert alert-warning">@ViewBag.Message</div>
+}

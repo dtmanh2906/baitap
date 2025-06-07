@@ -1,0 +1,36 @@
+﻿@model List<WebMVC_DinhTienManh_22103100308.ViewModel.ThongKeDiemViewModel>
+
+@{
+    ViewData["Title"] = "Thống kê sinh viên điểm cao";
+}
+
+<h2>Danh sách sinh viên có điểm trung bình > 8.0</h2>
+
+@foreach (var sv in Model)
+{
+    <div>
+        <h4>@sv.FullName</h4>
+        <p><strong>Ngày sinh:</strong> @sv.BrithDate.ToString("dd/MM/yyyy")</p>
+        <p><strong>Điểm trung bình:</strong> @sv.AverageScore</p>
+
+        <h5>Danh sách điểm các môn:</h5>
+        <table >
+            <thead>
+                <tr>
+                    <th>Môn học</th>
+                    <th>Điểm</th>
+                </tr>
+            </thead>
+            <body>
+                @foreach (var r in sv.ListDiem)
+                {
+                    <tr>
+                        <td>@r.Subject</td>
+                        <td>@r.Score</td>
+                    </tr>
+                }
+            </body>
+        </table>
+    </div>
+    <br />
+}
