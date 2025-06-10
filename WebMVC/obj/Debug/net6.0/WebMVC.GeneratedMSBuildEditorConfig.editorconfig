@@ -1,0 +1,97 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebMVC
+build_property.RootNamespace = WebMVC
+build_property.ProjectDir = C:\C#\ngay10_6_Winform\WebMVC\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\C#\ngay10_6_Winform\WebMVC
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 6.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/C\#/ngay10_6_Winform/WebMVC/Views/ChuyenBays/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1eWVuQmF5c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ngay10_6_Winform/WebMVC/Views/ChuyenBays/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1eWVuQmF5c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ngay10_6_Winform/WebMVC/Views/ChuyenBays/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1eWVuQmF5c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ngay10_6_Winform/WebMVC/Views/ChuyenBays/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1eWVuQmF5c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ngay10_6_Winform/WebMVC/Views/ChuyenBays/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1eWVuQmF5c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ngay10_6_Winform/WebMVC/Views/ChuyenBays/TimTheoNoiDen.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1eWVuQmF5c1xUaW1UaGVvTm9pRGVuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ngay10_6_Winform/WebMVC/Views/HanhKhaches/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFuaEtoYWNoZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ngay10_6_Winform/WebMVC/Views/HanhKhaches/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFuaEtoYWNoZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ngay10_6_Winform/WebMVC/Views/HanhKhaches/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFuaEtoYWNoZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ngay10_6_Winform/WebMVC/Views/HanhKhaches/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFuaEtoYWNoZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ngay10_6_Winform/WebMVC/Views/HanhKhaches/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFuaEtoYWNoZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ngay10_6_Winform/WebMVC/Views/HanhKhaches/ThongKeHanhKhach.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFuaEtoYWNoZXNcVGhvbmdLZUhhbmhLaGFjaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ngay10_6_Winform/WebMVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ngay10_6_Winform/WebMVC/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ngay10_6_Winform/WebMVC/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ngay10_6_Winform/WebMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ngay10_6_Winform/WebMVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ngay10_6_Winform/WebMVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/C\#/ngay10_6_Winform/WebMVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-giswp39xn8

@@ -1,0 +1,58 @@
+﻿@model List<WebMVC.Models.ChuyenBay>
+
+@{
+    ViewData["Title"] = "Tìm chuyến bay theo nơi đến";
+    var daTim = Model != null; // Biến kiểm tra đã thực hiện tìm kiếm hay chưa
+}
+
+<h2>Tìm chuyến bay theo nơi đến</h2>
+
+<form asp-action="TimTheoNoiDen" method="post">
+    <div class="form-group">
+        <label for="noiDen">Nhập nơi đến:</label>
+        <input type="text" name="noiDen" class="form-control" required value="@ViewBag.NoiDen" />
+    </div>
+    <button type="submit">Tìm kiếm</button>
+</form>
+
+@if (ViewBag.ThongBao != null)
+{
+    <div class="alert alert-warning mt-2">@ViewBag.ThongBao</div>
+}
+
+@if (daTim)
+{
+    <hr />
+    <h4>Kết quả tìm kiếm</h4>
+
+    @if (!Model.Any())
+    {
+        <p>Không tìm thấy chuyến bay phù hợp.</p>
+    }
+    else
+    {
+        <table class="table table-bordered @* mt-2 *@">
+            <thead>
+                <tr>
+                    <th>Mã chuyến bay</th>
+                    <th>Nơi đến</th>
+                    <th>Ngày bay</th>
+                    <th>Giá vé</th>
+                    <th>Hành khách</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var cb in Model)
+                {
+                    <tr>
+                        <td>@cb.MaChuyenBay</td>
+                        <td>@cb.NoiDen</td>
+                        <td>@cb.NgayBay.ToString("dd/MM/yyyy")</td>
+                        <td>@cb.GiaVe.ToString("N0") VNĐ</td>
+                        <td>@cb.HanhKhach?.HoTen</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+}

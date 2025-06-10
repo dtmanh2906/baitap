@@ -1,0 +1,44 @@
+﻿@model List<WebMVC.ViewModel.ThongKeKhachHangViewModel>
+
+@{
+    ViewData["Title"] = "Thống kê hành khách có tổng tiền ≥ 20 triệu";
+}
+
+<h2>Thống kê hành khách có tổng tiền vé ≥ 20 triệu</h2>
+
+@if (!Model.Any())
+{
+    <p>Không có hành khách nào đủ điều kiện.</p>
+}
+else
+{
+    foreach (var kh in Model)
+    {
+        <div>
+            <div>
+                <strong>@kh.HoTen</strong> - CMND: @kh.SoCMND - Tổng tiền: <strong>@kh.TongTien.ToString("N0")</strong> VNĐ
+            </div>
+            <div class="card-body">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Nơi đi</th>
+                            <th>Nơi đến</th>
+                            <th>Giá vé</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var cb in kh.DanhSachChuyenBay)
+                        {
+                            <tr>
+                                <td>@cb.NoiDi</td>
+                                <td>@cb.NoiDen</td>
+                                <td>@cb.GiaVe.ToString("N0") VNĐ</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    }
+}
